@@ -5,11 +5,11 @@ title: LittleDays Privacy Policy
 
 # LittleDays Privacy Policy
 
-**Effective date:** 2026-05-18
+**Effective date:** 2026-06-08
 
 ## Who we are
 
-LittleDays is a family memory journal app for iOS. It is built and maintained by a single independent developer, Luke Hakso. If anything in this policy is unclear, or you want your data deleted, email me directly at **luke.c.hakso@gmail.com**.
+LittleDays is a family memory journal app for iOS, operated by **Little Days LLC**, a small independent company. If anything in this policy is unclear, or you want your data deleted, email us directly at **littledaysllc@gmail.com**.
 
 This is the whole policy. No fine print elsewhere.
 
@@ -26,6 +26,7 @@ That is the entire product surface. Everything described below exists to support
 - **Child profiles.** A name, an optional birthday, and an optional accent color. You create these; they describe your own kids.
 - **Audio recordings.** When you record a voice memory, the audio is uploaded to our backend for transcription, then discarded server-side. A local copy stays on your device only so the app can retry the upload if it fails; once upload succeeds, the audio's job is done.
 - **Settings preferences.** Things like reminder frequency and how much editorializing you want the app to do when it rewrites memories.
+- **Photobook order details (only if you order a book).** When you buy a printed photobook, you provide a shipping name, address, phone number, and the email for delivery updates. We also generate a print-ready PDF of the memories and photos you chose to include. Payment card details are entered into Stripe's payment sheet and go directly to Stripe — we never see or store your card number.
 
 We do **not** collect:
 
@@ -41,8 +42,10 @@ We do **not** collect:
 - **Supabase.** We use Supabase for the cloud database and private file storage. This gives you cloud backup and enables future cross-device sync.
 - **OpenAI API.** Audio recordings and memory text are sent to OpenAI for transcription and for the optional rewriting/editorialization feature. Per OpenAI's API terms, data sent through the API is not used to train their models and is deleted from their systems within 30 days.
 - **Sentry.** Used only for crash reports, so I can fix bugs that take down the app. Personal identifiers are stripped before the report is transmitted.
+- **Stripe** *(only if you order a photobook).* Payments for printed books are processed by Stripe. Your card details are entered directly into Stripe and are handled by Stripe, not by us — we only receive a confirmation that a payment succeeded and a reference to it, never the card number. Stripe acts as the payment processor for the transaction; Little Days LLC is the merchant of record.
+- **Lulu** *(only if you order a photobook).* Printed books are manufactured and shipped by Lulu, a print-on-demand provider. To fulfill your order we send Lulu the print-ready PDF of your book and your shipping details (name, address, phone, and an email for delivery updates). Lulu uses this only to print and deliver your book.
 
-That's the full list of places your data goes.
+That's the full list of places your data goes. The last three — Stripe and Lulu — only ever receive anything if you choose to order a printed photobook. If you never order a book, your data never touches them.
 
 ## Children's data
 
@@ -52,11 +55,22 @@ LittleDays is designed around a clear principle: **the parent is the user; the c
 - We do not knowingly collect personal information directly from children.
 - Memories about children are created, edited, and controlled by the parent who holds the account.
 
-If you believe a child has somehow created an account, email me and I will delete it.
+If you believe a child has somehow created an account, email us and we will delete it.
+
+## When you order a photobook
+
+Ordering a printed book is the only part of LittleDays that involves money or physical shipping, so it's worth spelling out separately:
+
+- The memories and photos you select are rendered into a print-ready PDF.
+- That PDF, plus your shipping name, address, phone, and email, is sent to **Lulu** to print and ship the book.
+- Your payment is handled by **Stripe**. Card details go straight to Stripe; we don't see them. We keep a record of the order (what was ordered, the price, the order status, and a reference to the Stripe payment) so we can support you and handle refunds.
+- The financial and order details of a purchase are kept as long as needed for tax, accounting, and dispute-resolution purposes, even if you later delete other data — this is a legal requirement that overrides ordinary deletion.
+
+See the separate [Terms of Sale](terms.html) for how orders, pricing, and refunds work.
 
 ## Sharing
 
-We do not sell your data. We do not share it for marketing. We do not share it with anyone outside the service providers listed above (Supabase, OpenAI, Sentry), each of which is bound by its own privacy terms and uses the data only to provide its piece of the service.
+We do not sell your data. We do not share it for marketing. We do not share it with anyone outside the service providers listed above (Supabase, OpenAI, Sentry, and — only for photobook orders — Stripe and Lulu), each of which is bound by its own privacy terms and uses the data only to provide its piece of the service.
 
 ## Your controls
 
@@ -67,6 +81,8 @@ We do not sell your data. We do not share it for marketing. We do not share it w
 ## Retention
 
 Your data persists for as long as you keep your account. When you delete your account, we wipe your Supabase database rows, your storage objects (photos), and your Supabase auth user. There is no backup we hold onto afterward for "recovery" purposes — once it's gone, it's gone.
+
+The one exception is photobook purchase records. If you've ordered a book, the order and payment record (not your memories or photos — just the transaction details) is retained as required for tax and accounting law, even after account deletion.
 
 ## Security
 
@@ -80,4 +96,4 @@ If this policy changes, the version on this page will be updated and the effecti
 
 For privacy questions, deletion requests, or anything else related to your data in LittleDays:
 
-**luke.c.hakso@gmail.com**
+**littledaysllc@gmail.com**
