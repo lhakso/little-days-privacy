@@ -5,9 +5,9 @@ title: LittleDays Terms of Sale
 
 # LittleDays Terms of Sale
 
-**Effective date:** 2026-06-08
+**Effective date:** 2026-06-12
 
-These terms cover one thing: buying a printed photobook through LittleDays. Everything else in the app — writing memories, recap summaries, on-screen photobook previews — is free and isn't a "sale," so it isn't governed here. How your data is handled is covered separately in the [Privacy Policy](index.html).
+These terms cover the two things in LittleDays that involve money: buying a printed photobook, and subscribing to **Little Days Plus** (extra cloud storage). Everything else in the app — writing memories, recap summaries, on-screen photobook previews, and free cloud backup — is free and isn't a sale, so it isn't governed here. How your data is handled is covered separately in the [Privacy Policy](index.html).
 
 LittleDays is operated by **Little Days LLC**, a small independent company, which is the seller and merchant of record for photobook orders. If anything here is unclear, or something goes wrong with an order, email us directly at **littledaysllc@gmail.com**.
 
@@ -57,6 +57,17 @@ You keep ownership of the memories and photos in your book. By ordering, you con
 ## Things outside our control
 
 LittleDays is provided as-is. The photobook itself is warranted against manufacturing and shipping defects as described above, but beyond fixing or refunding a defective order, LittleDays isn't liable for indirect or consequential losses. Nothing in these terms removes rights you have under applicable consumer-protection law.
+
+## Little Days Plus subscription
+
+Every LittleDays account includes free private cloud backup. **Little Days Plus** is an optional auto-renewable subscription that expands your private cloud storage to 5 GB so all of your photos and memories stay safely backed up. The app is fully usable without it — Plus only raises your storage limit.
+
+- **Price and length.** Little Days Plus is **$2.99 USD per month**. The current price is always shown to you in the app before you subscribe, and is confirmed on the App Store purchase screen.
+- **Billing through Apple.** The subscription is sold through your Apple ID, not directly by us. Payment is charged to your Apple ID account at confirmation of purchase.
+- **Auto-renewal.** The subscription **renews automatically each month** and your Apple ID is charged for the next month unless you turn off auto-renewal at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours prior to the end of the current period.
+- **Managing or cancelling.** You can manage or cancel the subscription anytime in **Settings → your Apple ID → Subscriptions** on your device. Cancelling stops future renewals; it does not refund the current period. Your Plus storage stays active until the end of the period you've already paid for.
+- **If you cancel or it lapses.** Your storage limit returns to the free tier, but **no memories or photos are ever deleted.** Anything already backed up stays backed up; new captures simply stay on your device until you're under the limit again or resubscribe.
+- **Refunds.** Subscription refunds are handled by Apple under the App Store's terms, not by us. If you believe you were charged in error, request a refund through Apple (reportaproblem.apple.com).
 
 ## Changes
 

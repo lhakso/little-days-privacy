@@ -1,6 +1,6 @@
 # LittleDays Privacy Policy
 
-**Effective date:** 2026-06-08
+**Effective date:** 2026-06-12
 
 ## Who we are
 
@@ -22,6 +22,7 @@ That is the entire product surface. Everything described below exists to support
 - **Audio recordings.** When you record a voice memory, the audio is uploaded to our backend for transcription, then discarded server-side. A local copy stays on your device only so the app can retry the upload if it fails; once upload succeeds, the audio's job is done.
 - **Settings preferences.** Things like reminder frequency and how much editorializing you want the app to do when it rewrites memories.
 - **Photobook order details (only if you order a book).** When you buy a printed photobook, you provide a shipping name, address, phone number, and the email for delivery updates. We also generate a print-ready PDF of the memories and photos you chose to include. Payment card details are entered into Stripe's payment sheet and go directly to Stripe — we never see or store your card number.
+- **Subscription status (only if you subscribe to Little Days Plus).** If you subscribe to our optional cloud-storage upgrade, the purchase is processed by Apple through your Apple ID — we never see your payment details. Apple sends us a signed receipt and renewal notifications so we know your subscription is active and can raise your storage limit accordingly. We store only your subscription's status and the identifiers needed to keep it in sync; we do not store any card or Apple ID payment information.
 
 We do **not** collect:
 
@@ -39,8 +40,9 @@ We do **not** collect:
 - **Sentry.** Used only for crash reports, so I can fix bugs that take down the app. Personal identifiers are stripped before the report is transmitted.
 - **Stripe** *(only if you order a photobook).* Payments for printed books are processed by Stripe. Your card details are entered directly into Stripe and are handled by Stripe, not by us — we only receive a confirmation that a payment succeeded and a reference to it, never the card number. Stripe acts as the payment processor for the transaction; Little Days LLC is the merchant of record.
 - **Lulu** *(only if you order a photobook).* Printed books are manufactured and shipped by Lulu, a print-on-demand provider. To fulfill your order we send Lulu the print-ready PDF of your book and your shipping details (name, address, phone, and an email for delivery updates). Lulu uses this only to print and deliver your book.
+- **Apple** *(only if you subscribe to Little Days Plus).* The Little Days Plus storage subscription is sold and billed by Apple through your Apple ID. Apple handles the payment and sends us a signed receipt and renewal notices so we can keep your storage limit in sync. We never receive your card or Apple ID payment details.
 
-That's the full list of places your data goes. The last three — Stripe and Lulu — only ever receive anything if you choose to order a printed photobook. If you never order a book, your data never touches them.
+That's the full list of places your data goes. Stripe and Lulu only ever receive anything if you order a printed photobook; Apple's subscription data only exists if you subscribe to Little Days Plus. If you do neither, your data never touches them.
 
 ## Children's data
 
